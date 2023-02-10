@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BINList</string>
+    <string name="bin_code">BIN Code</string>
+    <string name="search">Search</string>
+    <string name="bin_inn_label">BIN/INN</string>
+    <string name="scheme_network_label">SCHEME / NETWORK</string>
+    <string name="brand_label">BRAND</string>
+    <string name="card_number_length_label">CARD NUMBER LENGTH</string>
+    <string name="luhn_label">LUHN</string>
+    <string name="type_label">TYPE</string>
+    <string name="prepaid_label">PREPAID</string>
+    <string name="country_label">COUNTRY</string>
+    <string name="bank_label">BANK</string>
+    <string name="bank_website_label">BANK WEBSITE</string>
+    <string name="bank_phone_label">BANK PHONE</string>
+    <string name="request_fail">Не удалось найти BIN либо ошибка!</string>
+    <string name="input_bin">Пожалуйста, введите код BIN</string>
+</resources>

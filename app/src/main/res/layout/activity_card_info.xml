@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bin_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/bin_inn_label"
+            android:textSize="34sp" />
+        <TextView
+            android:id="@+id/bin_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/scheme_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scheme_network_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/scheme_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/network_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brand_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/network_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/card_length_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/card_number_length_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/card_length_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/luhn_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/luhn_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/luhn_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/type_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/type_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/prepaid_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prepaid_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/prepaid_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/country_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/country_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="?android:attr/textColorLink" />
+
+        <TextView
+            android:id="@+id/bank_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bank_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bank_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/bank_website_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bank_website_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bank_website_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="?android:attr/textColorLink" />
+
+        <TextView
+            android:id="@+id/bank_phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bank_phone_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/bank_phone_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="?android:attr/textColorLink" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="64dp" />
+    </LinearLayout>
+</ScrollView>
